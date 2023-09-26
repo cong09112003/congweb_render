@@ -1,4 +1,4 @@
-FROM tomcat:9.0-jdk17-corretto-al2
+FROM tomcat:9.0.80-jdk11-corretto-al2
 RUN rm -rf /usr/local/tomcat/webapps/ROOT
 RUN rm -rf /usr/local/tomcat/webapps/examples
 ADD cong21110144_workweb-1.0-SNAPSHOT.war /usr/local/tomcat/webapps/
